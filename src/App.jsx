@@ -1,12 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
-import Phonebook from './components/Phonebook';
+import "./App.css";
+import Phonebook from "./components/Phonebook";
 
 function App() {
-  return (
-    <Phonebook />
-  );
+  return <Phonebook />;
 }
 
 export default App;

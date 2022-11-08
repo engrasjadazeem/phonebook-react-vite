@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'prettier'
   ],
   overrides: [
   ],
@@ -17,6 +18,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    "react/prop-types": 0,
     "class-methods-use-this": "off",
     "consistent-return": "off",
     "curly": ["error", "all"],
